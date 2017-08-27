@@ -1,0 +1,77 @@
+<!ENTITY hatemile.description.caption           "Texto descritivo">
+<!ENTITY hatemile.link.caption                  "Link">
+<!ENTITY hatemile.navigation.caption            "Navegação">
+<!ENTITY hatemile.draganddrop.caption           "Arrastar e soltar">
+<!ENTITY hatemile.forms.caption                 "Formulário">
+<!ENTITY hatemile.draganddrop.drag.caption      "Arrastar">
+<!ENTITY hatemile.draganddrop.drop.caption      "Soltar">
+<!ENTITY hatemile.forms.common.caption          "Geral">
+<!ENTITY hatemile.forms.range.caption           "Númerico">
+<!ENTITY hatemile.forms.time.caption            "Tempo">
+<!ENTITY hatemile.grabbed.true.before           "Texto antes do elemento sendo arrastado">
+<!ENTITY hatemile.grabbed.true.after            "Texto depois do elemento sendo arrastado">
+<!ENTITY hatemile.grabbed.false.before          "Texto antes do elemento arrastável">
+<!ENTITY hatemile.grabbed.false.after           "Texto depois do elemento arrastável">
+<!ENTITY hatemile.label.prefix.before           "Prefixo do rótulo antes do elemento">
+<!ENTITY hatemile.label.suffix.before           "Sufixo do rótulo antes do elemento">
+<!ENTITY hatemile.label.prefix.after            "Prefixo do rótulo depois do elemento">
+<!ENTITY hatemile.label.suffix.after            "Sufixo do rótulo depois do elemento">
+<!ENTITY hatemile.dropeffect.copy.before        "Texto antes do local para ser copiado o elemento selecionado">
+<!ENTITY hatemile.dropeffect.copy.after         "Texto depois do local para ser copiado o elemento selecionado">
+<!ENTITY hatemile.dropeffect.move.before        "Texto antes do local para ser movido o elemento selecionado">
+<!ENTITY hatemile.dropeffect.move.after         "Texto depois do local para ser movido o elemento selecionado">
+<!ENTITY hatemile.dropeffect.link.before        "Texto antes do local a ser ligado o elemento selecionado">
+<!ENTITY hatemile.dropeffect.link.after         "Texto depois do local a ser ligado o elemento selecionado">
+<!ENTITY hatemile.dropeffect.execute.before     "Texto antes do local a ser executado o elemento selecionado">
+<!ENTITY hatemile.dropeffect.execute.after      "Texto depois do local a ser executado o elemento selecionado">
+<!ENTITY hatemile.dropeffect.popup.before       "Texto antes do local a ser aberto o pop-up">
+<!ENTITY hatemile.dropeffect.popup.after        "Texto depois do local a ser aberto o pop-up">
+<!ENTITY hatemile.download.before               "Texto antes de um link de download">
+<!ENTITY hatemile.download.after                "Texto após um link de download">
+<!ENTITY hatemile.target.blank.before           "Texto antes de um link que abre uma nova aba">
+<!ENTITY hatemile.target.blank.after            "Texto após um link que abre uma nova aba">
+<!ENTITY hatemile.title.prefix.before           "Prefixo do título antes do elemento">
+<!ENTITY hatemile.title.suffix.before           "Sufixo do título antes do elemento">
+<!ENTITY hatemile.title.prefix.after            "Prefixo do título depois do elemento">
+<!ENTITY hatemile.title.suffix.after            "Sufixo do título depois do elemento">
+<!ENTITY hatemile.accesskey.prefix.before       "Prefixo do atalho antes do elemento">
+<!ENTITY hatemile.accesskey.suffix.before       "Sufixo do atalho antes do elemento">
+<!ENTITY hatemile.accesskey.prefix.after        "Prefixo do atalho depois do elemento">
+<!ENTITY hatemile.accesskey.suffix.after        "Sufixo do atalho depois do elemento">
+<!ENTITY hatemile.longdescription.prefix.before "Prefixo do link da descrição longa antes da imagem">
+<!ENTITY hatemile.longdescription.suffix.before "Sufixo do link da descrição longa antes da imagem">
+<!ENTITY hatemile.longdescription.prefix.after  "Prefixo do link da descrição longa depois da imagem">
+<!ENTITY hatemile.longdescription.suffix.after  "Sufixo do link da descrição longa depois da imagem">
+<!ENTITY hatemile.elements.heading.before       "Texto antes do sumário">
+<!ENTITY hatemile.elements.heading.after        "Texto depois do sumário">
+<!ENTITY hatemile.skipper.tableofcontents       "Texto do link para o sumário">
+<!ENTITY hatemile.value.maximum.prefix.before   "Prefixo do valor máximo antes do campo">
+<!ENTITY hatemile.value.maximum.suffix.before   "Sufixo do valor máximo antes do campo">
+<!ENTITY hatemile.value.maximum.prefix.after    "Prefixo do valor máximo depois do campo">
+<!ENTITY hatemile.value.maximum.suffix.after    "Sufixo do valor máximo depois do campo">
+<!ENTITY hatemile.value.minimum.prefix.before   "Prefixo do valor mínimo antes do campo">
+<!ENTITY hatemile.value.minimum.suffix.before   "Sufixo do valor mínimo antes do campo">
+<!ENTITY hatemile.value.minimum.prefix.after    "Prefixo do valor mínimo depois do campo">
+<!ENTITY hatemile.value.minimum.suffix.after    "Sufixo do valor mínimo depois do campo">
+<!ENTITY hatemile.invalid.url.before            "Texto antes de um campo com URL inválida">
+<!ENTITY hatemile.invalid.url.after             "Texto depois de um campo com URL inválida">
+<!ENTITY hatemile.invalid.email.before          "Texto antes de um campo com endereço de e-mail inválido">
+<!ENTITY hatemile.invalid.email.after           "Texto depois de um campo com endereço de e-mail inválido">
+<!ENTITY hatemile.invalid.range.before          "Texto antes de um campo com valor fora do intervalo">
+<!ENTITY hatemile.invalid.range.after           "Texto depois de um campo com valor fora do intervalo">
+<!ENTITY hatemile.invalid.length.before         "Texto antes de um campo com o número de caracteres fora do intervalo">
+<!ENTITY hatemile.invalid.length.after          "Texto depois de um campo com o número de caracteres fora do intervalo">
+<!ENTITY hatemile.invalid.pattern.before        "Texto antes de um campo fora do padrão">
+<!ENTITY hatemile.invalid.pattern.after         "Texto depois de um campo fora do padrão">
+<!ENTITY hatemile.invalid.required.before       "Texto antes de um campo obrigatório que não foi preenchido">
+<!ENTITY hatemile.invalid.required.after        "Texto depois de um campo obrigatório que não foi preenchido">
+<!ENTITY hatemile.invalid.date.before           "Texto antes de um campo com data inválida">
+<!ENTITY hatemile.invalid.date.after            "Texto depois de um campo com data inválida">
+<!ENTITY hatemile.invalid.time.before           "Texto antes de um campo com horário inválido">
+<!ENTITY hatemile.invalid.time.after            "Texto depois de um campo com horário inválido">
+<!ENTITY hatemile.invalid.datetime.before       "Texto antes de um campo com data e horário inválido">
+<!ENTITY hatemile.invalid.datetime.after        "Texto depois de um campo com data e horário inválido">
+<!ENTITY hatemile.invalid.month.before          "Texto antes de um campo com mês inválido">
+<!ENTITY hatemile.invalid.month.after           "Texto depois de um campo com mês inválido">
+<!ENTITY hatemile.invalid.week.before           "Texto antes de um campo com semana inválida">
+<!ENTITY hatemile.invalid.week.after            "Texto depois de um campo com semana inválida">

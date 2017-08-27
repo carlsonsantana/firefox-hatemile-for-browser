@@ -1,0 +1,72 @@
+<!ENTITY hatemile.description.caption           "Text description">
+<!ENTITY hatemile.link.caption                  "Link">
+<!ENTITY hatemile.navigation.caption            "Navigation">
+<!ENTITY hatemile.draganddrop.caption           "Drag-and-Drop">
+<!ENTITY hatemile.forms.caption                 "Forms">
+<!ENTITY hatemile.grabbed.true.before           "Text before grabbed elements">
+<!ENTITY hatemile.grabbed.true.after            "Text after grabbed elements">
+<!ENTITY hatemile.grabbed.false.before          "Text before draggable elements">
+<!ENTITY hatemile.grabbed.false.after           "Text after draggable elements">
+<!ENTITY hatemile.label.prefix.before           "Prefix before the label of element">
+<!ENTITY hatemile.label.suffix.before           "Suffix before the label of element">
+<!ENTITY hatemile.label.prefix.after            "Prefix after the label of element">
+<!ENTITY hatemile.label.suffix.after            "Suffix after the label of element">
+<!ENTITY hatemile.dropeffect.copy.before        "Text before target to paste the seletected element">
+<!ENTITY hatemile.dropeffect.copy.after         "Text after target to paste the seletected element">
+<!ENTITY hatemile.dropeffect.move.before        "Text before target to move the seletected element">
+<!ENTITY hatemile.dropeffect.move.after         "Text after target to move the seletected element">
+<!ENTITY hatemile.dropeffect.link.before        "Text before target to link the seletected element">
+<!ENTITY hatemile.dropeffect.link.after         "Text after target to link the seletected element">
+<!ENTITY hatemile.dropeffect.execute.before     "Text before target to execute the seletected element">
+<!ENTITY hatemile.dropeffect.execute.after      "Text after target to execute the seletected element">
+<!ENTITY hatemile.dropeffect.popup.before       "Text before target to show drop poup">
+<!ENTITY hatemile.dropeffect.popup.after        "Text after target to show drop popup">
+<!ENTITY hatemile.download.before               "Text before a download link">
+<!ENTITY hatemile.download.after                "Text after a download link">
+<!ENTITY hatemile.target.blank.before           "Text before a link that open new tab">
+<!ENTITY hatemile.target.blank.after            "Text after a link that open new tab">
+<!ENTITY hatemile.title.prefix.before           "Prefix before the title of element">
+<!ENTITY hatemile.title.suffix.before           "Suffix before the title of element">
+<!ENTITY hatemile.title.prefix.after            "Prefix after the title of element">
+<!ENTITY hatemile.title.suffix.after            "Suffix after the title of element">
+<!ENTITY hatemile.accesskey.prefix.before       "Prefix before of element shortcut">
+<!ENTITY hatemile.accesskey.suffix.before       "Suffix before of element shortcut">
+<!ENTITY hatemile.accesskey.prefix.after        "Prefix after of element shortcut">
+<!ENTITY hatemile.accesskey.suffix.after        "Suffix after of element shortcut">
+<!ENTITY hatemile.longdescription.prefix.before "Prefix before of longdescription link">
+<!ENTITY hatemile.longdescription.suffix.before "Suffix before of longdescription link">
+<!ENTITY hatemile.longdescription.prefix.after  "Prefix after of longdescription link">
+<!ENTITY hatemile.longdescription.suffix.after  "Suffix after of longdescription link">
+<!ENTITY hatemile.elements.heading.before       "Text before the table of contents">
+<!ENTITY hatemile.elements.heading.after        "Text after the table of contents">
+<!ENTITY hatemile.skipper.tableofcontents       "Text of link to table of contents">
+<!ENTITY hatemile.value.maximum.prefix.before   "Prefix before the maximum value of field">
+<!ENTITY hatemile.value.maximum.suffix.before   "Suffix before the maximum value of field">
+<!ENTITY hatemile.value.maximum.prefix.after    "Prefix after the maximum value of field">
+<!ENTITY hatemile.value.maximum.suffix.after    "Suffix after the maximum value of field">
+<!ENTITY hatemile.value.minimum.prefix.before   "Prefix before the minimum value of field">
+<!ENTITY hatemile.value.minimum.suffix.before   "Suffix before the minimum value of field">
+<!ENTITY hatemile.value.minimum.prefix.after    "Prefix after the minimum value of field">
+<!ENTITY hatemile.value.minimum.suffix.after    "Suffix after the minimum value of field">
+<!ENTITY hatemile.invalid.url.before            "Text before a field with invalid URL">
+<!ENTITY hatemile.invalid.url.after             "Text after a field with invalid URL">
+<!ENTITY hatemile.invalid.email.before          "Text before a field with invalid e-mail">
+<!ENTITY hatemile.invalid.email.after           "Text after a field with invalid e-mail">
+<!ENTITY hatemile.invalid.range.before          "Text before a field with value out of valid range">
+<!ENTITY hatemile.invalid.range.after           "Text after a field with value out of valid range">
+<!ENTITY hatemile.invalid.length.before         "Text before a field that not contain a number of caracters in valid range">
+<!ENTITY hatemile.invalid.length.after          "Text after a field that not contain a number of caracters in valid range">
+<!ENTITY hatemile.invalid.pattern.before        "Text before a field with value does not match with the requested format">
+<!ENTITY hatemile.invalid.pattern.after         "Text after a field with value does not match with the requested format">
+<!ENTITY hatemile.invalid.required.before       "Text before a field that need be filled">
+<!ENTITY hatemile.invalid.required.after        "Text after a field that need be filled">
+<!ENTITY hatemile.invalid.date.before           "Text before a field with invalid date">
+<!ENTITY hatemile.invalid.date.after            "Text after a field with invalid date">
+<!ENTITY hatemile.invalid.time.before           "Text before a field with invalid time">
+<!ENTITY hatemile.invalid.time.after            "Text after a field with invalid time">
+<!ENTITY hatemile.invalid.datetime.before       "Text before a field with invalid date and time">
+<!ENTITY hatemile.invalid.datetime.after        "Text after a field with invalid date and time">
+<!ENTITY hatemile.invalid.month.before          "Text before a field with invalid month">
+<!ENTITY hatemile.invalid.month.after           "Text after a field with invalid month">
+<!ENTITY hatemile.invalid.week.before           "Text before a field with invalid week">
+<!ENTITY hatemile.invalid.week.after            "Text after a field with invalid week">

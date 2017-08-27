@@ -1,0 +1,6 @@
+content   hatemile                content/
+skin      hatemile  classic/1.0   skin/
+locale    hatemile  en-US         locale/en-US/
+locale    hatemile  pt-BR         locale/pt-BR/
+
+overlay chrome://browser/content/browser.xul  chrome://hatemile/content/background.xul
