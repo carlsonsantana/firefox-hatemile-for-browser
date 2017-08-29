@@ -1,6 +1,6 @@
 ## Description
 
-[Description of the bug, feature or asnwer]
+[Description of the bug, feature or question]
 
 ## Steps to Reproduce (for bugs)
 
