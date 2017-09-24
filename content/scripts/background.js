@@ -24,9 +24,19 @@ function executeHatemile(event) {
 			accessibleNavigation.provideNavigationToAllLongDescriptions();
 			accessibleNavigation.provideNavigationByAllSkippers();
 			
-			var accessibleDisplay = new hatemile.implementation.AccessibleDisplayScreenReaderImplementation(htmlParser, configure);
+			var accessibleDisplay = new hatemile.implementation.AccessibleDisplayScreenReaderImplementation(htmlParser, configure, doc.defaultView.navigator.userAgent);
 			accessibleDisplay.displayAllCellHeaders();
-		} catch (e) {}
+			accessibleDisplay.displayAllWAIARIAStates();
+			accessibleDisplay.displayAllLinksAttributes();
+			accessibleDisplay.displayAllDragsAndDrops();
+			accessibleDisplay.displayAllAlternativeTextImages();
+			accessibleDisplay.displayAllTitles();
+			accessibleDisplay.displayAllShortcuts();
+		} catch (e) {
+			console.log(e);
+			alert('Ocorreu um erro :)');
+			throw e;
+		}
 	}
 }
 
@@ -39,8 +49,6 @@ function includeAuxiliarScripts(doc) {
 			loadStyle(doc, 'styles/accessiblearia.css', 'accessiblearia');
 			loadStyle(doc, 'styles/accessibleformvalidation.css', 'accessibleformvalidation');
 			loadStyle(doc, 'styles/hide_changes.css', 'hidechanges');
-			writeStyle(doc, getAccessibleDisplayCSS(), 'accessibledisplay');
-			writeStyle(doc, getAccessibleFormDisplayCSS(), 'accessibleformdisplay');
 			loadScript(doc, 'scripts/hatemile/js/common.js', true);
 			loadScript(doc, 'scripts/hatemile/js/eventlistener.js', true);
 			loadScript(doc, 'scripts/hatemile/js/hatemile/util/CommonFunctions.js', false);

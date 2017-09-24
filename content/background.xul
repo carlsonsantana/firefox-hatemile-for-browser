@@ -6,7 +6,6 @@
 		<stringbundle id="preferences-string-bundle" src="chrome://hatemile/locale/preferences.properties"/>
 	</stringbundleset>
 	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/common.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/mustache.js" />
 	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/CommonFunctions.js" />
 	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/Configure.js" />
 	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js" />
