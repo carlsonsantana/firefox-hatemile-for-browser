@@ -32,26 +32,26 @@ module.exports = function(grunt) {
 				src: [hatemileDirectory + 'js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js'],
 				actions: [
 					{
-						name: 'bar',
+						name: 'remove_get_inner_html',
 						search: 'VanillaHTMLDOMElement\\.prototype\\.getInnerHTML = function\\(\\) {[\\n\\r\\t\\s]*return this\\.data\\.innerHTML;[\\n\\r\\t\\s]*};',
 						replace: '',
 						flags: 'g'
 					},
 					{
-						name: 'foo',
+						name: 'remove_set_inner_html',
 						search: 'VanillaHTMLDOMElement\\.prototype\\.setInnerHTML = function\\(html\\) {[\\n\\r\\t\\s]*this\\.data\\.innerHTML = html;[\\n\\r\\t\\s]*};',
 						replace: '',
 						flags: 'g'
 					}
 					,{
-						name: 'foobar',
+						name: 'remove_get_outer_html',
 						search: 'VanillaHTMLDOMElement\\.prototype\\.getOuterHTML = function\\(\\) {[\\n\\r\\t\\s]*return this\\.data\\.outerHTML;[\\n\\r\\t\\s]*};',
 						replace: '',
 						flags: 'g'
 					}
 					,{
-						name: 'baz',
-						search: 'VanillaHTMLDOMElement\\.prototype\\.cloneElement = function\\(\\) {[\\n\\r\\t\\s]*var div;[\\n\\r\\t\\s]*div = this\\.data\\.ownerDocument\\.createElement\\(\'div\'\\);[\\n\\r\\t\\s]*div\\.innerHTML = this\\.getOuterHTML\\(\\);[\\n\\r\\t\\s]*return new exports\\.hatemile\\.util\\.html\\.vanilla\\.VanillaHTMLDOMElement\\(div\\.firstElementChild\\);[\\n\\r\\t\\s]*};',
+						name: 'remove_clone_element',
+						search: 'VanillaHTMLDOMElement\\.prototype\\.cloneElement = function\\(\\) {[\\n\\r\\t\\s]*var div;[\\n\\r\\t\\s]*div = this\\.data\\.ownerDocument\\.createElement\\(\'div\'\\);[\\n\\r\\t\\s]*div\\.innerHTML = this\\.getOuterHTML\\(\\);[\\n\\r\\t\\s]*return new __exports\\.hatemile\\.util\\.html\\.vanilla\\.VanillaHTMLDOMElement\\(div\\.firstElementChild\\);[\\n\\r\\t\\s]*};',
 						replace: '',
 						flags: 'g'
 					}
