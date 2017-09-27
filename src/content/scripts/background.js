@@ -4,39 +4,33 @@ function executeHatemile(event) {
 			&& (doc.defaultView === doc.defaultView.top)
 			&& (typeof doc.body !== typeof undefined)
 			&& (typeof doc.head !== typeof undefined)) {
-		try {
-			var configuration = getConfiguration();
+		var configuration = getConfiguration();
 
-			var configure = new hatemile.util.Configure(configuration);
-			var htmlParser = new hatemile.util.html.vanilla.VanillaHTMLDOMParser(doc);
+		var configure = new hatemile.util.Configure(configuration);
+		var htmlParser = new hatemile.util.html.vanilla.VanillaHTMLDOMParser(doc);
 
-			var accessibleAssociation = new hatemile.implementation.AccessibleAssociationImplementation(htmlParser, configure);
-			accessibleAssociation.associateAllDataCellsWithHeaderCells();
-			accessibleAssociation.associateAllLabelsWithFields();
+		var accessibleAssociation = new hatemile.implementation.AccessibleAssociationImplementation(htmlParser, configure);
+		accessibleAssociation.associateAllDataCellsWithHeaderCells();
+		accessibleAssociation.associateAllLabelsWithFields();
 
-			var accessibleForm = new hatemile.implementation.AccessibleFormImplementation(htmlParser, configure);
-			accessibleForm.markAllAutoCompleteFields();
-			accessibleForm.markAllRangeFields();
-			accessibleForm.markAllRequiredFields();
+		var accessibleForm = new hatemile.implementation.AccessibleFormImplementation(htmlParser, configure);
+		accessibleForm.markAllAutoCompleteFields();
+		accessibleForm.markAllRangeFields();
+		accessibleForm.markAllRequiredFields();
 
-			var accessibleNavigation = new hatemile.implementation.AccessibleNavigationImplementation(htmlParser, configure, getSkippers());
-			accessibleNavigation.provideNavigationByAllHeadings();
-			accessibleNavigation.provideNavigationToAllLongDescriptions();
-			accessibleNavigation.provideNavigationByAllSkippers();
-			
-			var accessibleDisplay = new hatemile.implementation.AccessibleDisplayScreenReaderImplementation(htmlParser, configure, doc.defaultView.navigator.userAgent);
-			accessibleDisplay.displayAllCellHeaders();
-			accessibleDisplay.displayAllWAIARIAStates();
-			accessibleDisplay.displayAllLinksAttributes();
-			accessibleDisplay.displayAllDragsAndDrops();
-			accessibleDisplay.displayAllAlternativeTextImages();
-			accessibleDisplay.displayAllTitles();
-			accessibleDisplay.displayAllShortcuts();
-		} catch (e) {
-			console.log(e);
-			alert('Ocorreu um erro :)');
-			throw e;
-		}
+		var accessibleNavigation = new hatemile.implementation.AccessibleNavigationImplementation(htmlParser, configure, getSkippers());
+		accessibleNavigation.provideNavigationByAllHeadings();
+		accessibleNavigation.provideNavigationToAllLongDescriptions();
+		accessibleNavigation.provideNavigationByAllSkippers();
+
+		var accessibleDisplay = new hatemile.implementation.AccessibleDisplayScreenReaderImplementation(htmlParser, configure, doc.defaultView.navigator.userAgent);
+		accessibleDisplay.displayAllCellHeaders();
+		accessibleDisplay.displayAllWAIARIAStates();
+		accessibleDisplay.displayAllLinksAttributes();
+		accessibleDisplay.displayAllDragsAndDrops();
+		accessibleDisplay.displayAllAlternativeTextImages();
+		accessibleDisplay.displayAllTitles();
+		accessibleDisplay.displayAllShortcuts();
 	}
 }
 
