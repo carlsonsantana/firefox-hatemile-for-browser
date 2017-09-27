@@ -1,4 +1,4 @@
-pref('extensions.hatemile.version', '2.0.3');
+pref('extensions.hatemile.version', '2.1.0');
 
 pref('extensions.hatemile.aria.autocomplete.both.before', 'chrome://hatemile/locale/preferences.properties');
 pref('extensions.hatemile.aria.autocomplete.both.after', 'chrome://hatemile/locale/preferences.properties');
