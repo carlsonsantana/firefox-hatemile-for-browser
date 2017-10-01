@@ -36,4 +36,4 @@ If you're unable to find an open issue requesting this feature, [open a new one]
 
 ## Donate
 
-If you'd like to monetarily support HaTeMiLe for Browser development, you can [donate to us by PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PRY8PY3ANVYT6).
+If you'd like to monetarily support HaTeMiLe for Browser development, you can [donate to us by PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7YBQ2ENMUFJW8).
