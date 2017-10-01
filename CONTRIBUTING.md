@@ -8,6 +8,7 @@ First off, thank you for considering contributing to HaTeMiLe for Browser.
 * [Reporting bugs](#reporting-bugs)
 * [Request new feature](#request-new-feature)
 * [Translating](#translating)
+* [Donate](#donate)
 
 ## Code of conduct
 
@@ -32,3 +33,7 @@ If you're unable to find an open issue requesting this feature, [open a new one]
 ## Translating
 
 [To translate the HaTeMiLe you must access our project in Zanata](https://translate.zanata.org/project/view/hatemile), you will need a account to translate.
+
+## Donate
+
+If you'd like to monetarily support HaTeMiLe for Browser development, you can [donate to us by PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PRY8PY3ANVYT6).
