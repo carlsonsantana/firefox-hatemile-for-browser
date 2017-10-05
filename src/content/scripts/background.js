@@ -1,9 +1,9 @@
 function executeHatemile(event) {
 	var doc = event.originalTarget;
-	if ((doc instanceof HTMLDocument)
-			&& (doc.defaultView === doc.defaultView.top)
-			&& (typeof doc.body !== typeof undefined)
-			&& (typeof doc.head !== typeof undefined)) {
+	if ((doc instanceof HTMLDocument) &&
+			(doc.defaultView === doc.defaultView.top) &&
+			(typeof doc.body !== typeof undefined) &&
+			(typeof doc.head !== typeof undefined)) {
 		var configuration = getConfiguration();
 
 		var configure = new hatemile.util.Configure(configuration);
@@ -35,10 +35,10 @@ function executeHatemile(event) {
 }
 
 function includeAuxiliarScripts(doc) {
-	if ((doc instanceof HTMLDocument)
-			&& (doc.defaultView === doc.defaultView.top)
-			&& (typeof doc.body !== typeof undefined)
-			&& (typeof doc.head !== typeof undefined)) {
+	if ((doc instanceof HTMLDocument) &&
+			(doc.defaultView === doc.defaultView.top) &&
+			(typeof doc.body !== typeof undefined) &&
+			(typeof doc.head !== typeof undefined)) {
 		if (!doc.getElementById('eventlistenerlist')) {
 			loadStyle(doc, 'styles/accessiblearia.css', 'accessiblearia');
 			loadStyle(doc, 'styles/accessibleformvalidation.css', 'accessibleformvalidation');
@@ -66,8 +66,8 @@ function includeAuxiliarScriptsByFirstScript(event) {
 
 function includeAuxiliarScriptsByHead(event) {
 	var doc = event.originalTarget;
-	if ((doc instanceof HTMLDocument)
-			&& (typeof doc.head !== typeof undefined)) {
+	if ((doc instanceof HTMLDocument) &&
+			(typeof doc.head !== typeof undefined)) {
 		includeAuxiliarScripts(doc);
 	}
 }
