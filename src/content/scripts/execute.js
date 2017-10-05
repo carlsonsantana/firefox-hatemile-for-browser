@@ -1,5 +1,12 @@
 initHaTeMiLeForBrowser = function() {
 	try {
+		var removeAddedElements = function() {
+			var elements = htmlParser.find('.container-skippers,.container-heading,.skipper-anchor,.heading-anchor,.longdescription-link').listResults();
+			for (var j = 0, length2 = elements.length; j < length2; j++) {
+				elements[j].removeNode();
+			}
+		};
+
 		var configure = new hatemile.util.Configure({'prefix-generated-ids': 'id-cs-hatemile-firefox-' + Math.random().toString(36).substring(7)});
 		var htmlParser = new hatemile.util.html.vanilla.VanillaHTMLDOMParser(document);
 
@@ -13,12 +20,7 @@ initHaTeMiLeForBrowser = function() {
 
 		var forms = htmlParser.find('form').listResults();
 		for (var i = 0, length = forms.length; i < length; i++) {
-			forms[i].getData().addEventListener('submit', function() {
-				var elements = htmlParser.find('.container-skippers,.container-heading,.skipper-anchor,.heading-anchor,.longdescription-link').listResults();
-				for (var j = 0, length2 = elements.length; j < length2; j++) {
-					elements[j].removeNode();
-				}
-			});
+			forms[i].getData().addEventListener('submit', removeAddedElements);
 		}
 	} catch (e) {}
 	window.removeEventListener('load', initHaTeMiLeForBrowser, false);
