@@ -5,6 +5,13 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        jshint: {
+            options: {
+                ignores: ['src/content/scripts/hatemile/**/*.js'],
+                maxlen: 80
+            },
+            files: ['Gruntfile.js', 'src/**/*.js']
+        },
         copy: {
             main: {
                 files: [
@@ -123,6 +130,7 @@ module.exports = function(grunt) {
     });
 
     // Load dependencies.
+    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-stripcomments');
@@ -130,7 +138,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compress');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean:remove_dist_files', 'copy',
+    grunt.registerTask('test', ['jshint']);
+    grunt.registerTask('default', ['jshint', 'clean:remove_dist_files', 'copy',
             'clean:remove_unused_files', 'comments', 'regex-replace',
             'compress', 'clean:remove_source_files']);
 };
