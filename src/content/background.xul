@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
 
 <overlay id="hatemile-browser-overlay"
-		 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<stringbundleset id="stringbundleset">
-		<stringbundle id="preferences-string-bundle" src="chrome://hatemile/locale/preferences.properties"/>
-	</stringbundleset>
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/common.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/CommonFunctions.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/Configure.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMParser.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMTextNode.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleAssociationImplementation.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleNavigationImplementation.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleDisplayScreenReaderImplementation.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/auxiliar_functions.js" />
-	<script type="application/x-javascript" src="chrome://hatemile/content/scripts/background.js" />
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="preferences-string-bundle" src="chrome://hatemile/locale/preferences.properties"/>
+    </stringbundleset>
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/common.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/CommonFunctions.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/Configure.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMParser.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMTextNode.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleAssociationImplementation.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleNavigationImplementation.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/hatemile/js/hatemile/implementation/AccessibleDisplayScreenReaderImplementation.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/auxiliar_functions.js" />
+    <script type="application/x-javascript" src="chrome://hatemile/content/scripts/background.js" />
 </overlay>

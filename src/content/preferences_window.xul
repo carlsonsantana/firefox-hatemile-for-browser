@@ -4,301 +4,301 @@
 <!DOCTYPE overlay SYSTEM "chrome://hatemile/locale/preferences_window.dtd">
 
 <prefwindow xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" id="preference-window">
-	<prefpane id="saveoptions">
-		<preferences>
-			<preference id="aria-grabbed-true-before" name="extensions.hatemile.aria.grabbed.true.before" type="wstring" />
-			<preference id="aria-grabbed-true-after" name="extensions.hatemile.aria.grabbed.true.after" type="wstring" />
-			<preference id="aria-grabbed-false-before" name="extensions.hatemile.aria.grabbed.false.before" type="wstring" />
-			<preference id="aria-grabbed-false-after" name="extensions.hatemile.aria.grabbed.false.after" type="wstring" />
-			
-			<preference id="aria-dropeffect-copy-before" name="extensions.hatemile.aria.dropeffect.copy.before" type="wstring" />
-			<preference id="aria-dropeffect-copy-after" name="extensions.hatemile.aria.dropeffect.copy.after" type="wstring" />
-			<preference id="aria-dropeffect-move-before" name="extensions.hatemile.aria.dropeffect.move.before" type="wstring" />
-			<preference id="aria-dropeffect-move-after" name="extensions.hatemile.aria.dropeffect.move.after" type="wstring" />
-			<preference id="aria-dropeffect-link-before" name="extensions.hatemile.aria.dropeffect.link.before" type="wstring" />
-			<preference id="aria-dropeffect-link-after" name="extensions.hatemile.aria.dropeffect.link.after" type="wstring" />
-			<preference id="aria-dropeffect-execute-before" name="extensions.hatemile.aria.dropeffect.execute.before" type="wstring" />
-			<preference id="aria-dropeffect-execute-after" name="extensions.hatemile.aria.dropeffect.execute.after" type="wstring" />
-			<preference id="aria-dropeffect-popup-before" name="extensions.hatemile.aria.dropeffect.popup.before" type="wstring" />
-			<preference id="aria-dropeffect-popup-after" name="extensions.hatemile.aria.dropeffect.popup.after" type="wstring" />
-			
-			<preference id="attribute-download-before" name="extensions.hatemile.attribute.download.before" type="wstring" />
-			<preference id="attribute-download-after" name="extensions.hatemile.attribute.download.after" type="wstring" />
-			
-			<preference id="attribute-target-blank-before" name="extensions.hatemile.attribute.target.blank.before" type="wstring" />
-			<preference id="attribute-target-blank-after" name="extensions.hatemile.attribute.target.blank.after" type="wstring" />
-			
-			<preference id="attribute-longdescription-prefix-before" name="extensions.hatemile.attribute.longdescription.prefix.before" type="wstring" />
-			<preference id="attribute-longdescription-suffix-before" name="extensions.hatemile.attribute.longdescription.suffix.before" type="wstring" />
-			<preference id="attribute-longdescription-prefix-after" name="extensions.hatemile.attribute.longdescription.prefix.after" type="wstring" />
-			<preference id="attribute-longdescription-suffix-after" name="extensions.hatemile.attribute.longdescription.suffix.after" type="wstring" />
-			
-			<preference id="attribute-accesskey-prefix-before" name="extensions.hatemile.attribute.accesskey.prefix.before" type="wstring" />
-			<preference id="attribute-accesskey-suffix-before" name="extensions.hatemile.attribute.accesskey.suffix.before" type="wstring" />
-			<preference id="attribute-accesskey-prefix-after" name="extensions.hatemile.attribute.accesskey.prefix.after" type="wstring" />
-			<preference id="attribute-accesskey-suffix-after" name="extensions.hatemile.attribute.accesskey.suffix.after" type="wstring" />
-			
-			<preference id="aria-label-prefix-before" name="extensions.hatemile.aria.label.prefix.before" type="wstring" />
-			<preference id="aria-label-suffix-before" name="extensions.hatemile.aria.label.suffix.before" type="wstring" />
-			<preference id="aria-label-prefix-after" name="extensions.hatemile.aria.label.prefix.after" type="wstring" />
-			<preference id="aria-label-suffix-after" name="extensions.hatemile.aria.label.suffix.after" type="wstring" />
-			
-			<preference id="attribute-title-prefix-before" name="extensions.hatemile.attribute.title.prefix.before" type="wstring" />
-			<preference id="attribute-title-suffix-before" name="extensions.hatemile.attribute.title.suffix.before" type="wstring" />
-			<preference id="attribute-title-prefix-after" name="extensions.hatemile.attribute.title.prefix.after" type="wstring" />
-			<preference id="attribute-title-suffix-after" name="extensions.hatemile.attribute.title.suffix.after" type="wstring" />
-			
-			<preference id="aria-required-true-before" name="extensions.hatemile.aria.required.true.before" type="wstring" />
-			<preference id="aria-required-true-after" name="extensions.hatemile.aria.required.true.after" type="wstring" />
-			
-			<preference id="aria-value-maximum-prefix-before" name="extensions.hatemile.aria.value.maximum.prefix.before" type="wstring" />
-			<preference id="aria-value-maximum-suffix-before" name="extensions.hatemile.aria.value.maximum.suffix.before" type="wstring" />
-			<preference id="aria-value-maximum-prefix-after" name="extensions.hatemile.aria.value.maximum.prefix.after" type="wstring" />
-			<preference id="aria-value-maximum-suffix-after" name="extensions.hatemile.aria.value.maximum.suffix.after" type="wstring" />
-			<preference id="aria-value-minimum-prefix-before" name="extensions.hatemile.aria.value.minimum.prefix.before" type="wstring" />
-			<preference id="aria-value-minimum-suffix-before" name="extensions.hatemile.aria.value.minimum.suffix.before" type="wstring" />
-			<preference id="aria-value-minimum-prefix-after" name="extensions.hatemile.aria.value.minimum.prefix.after" type="wstring" />
-			<preference id="aria-value-minimum-suffix-after" name="extensions.hatemile.aria.value.minimum.suffix.after" type="wstring" />
-			
-			<preference id="attribute-data-invalid-url-before" name="extensions.hatemile.attribute.data.invalid.url.before" type="wstring" />
-			<preference id="attribute-data-invalid-url-after" name="extensions.hatemile.attribute.data.invalid.url.after" type="wstring" />
-			<preference id="attribute-data-invalid-email-before" name="extensions.hatemile.attribute.data.invalid.email.before" type="wstring" />
-			<preference id="attribute-data-invalid-email-after" name="extensions.hatemile.attribute.data.invalid.email.after" type="wstring" />
-			<preference id="attribute-data-invalid-range-before" name="extensions.hatemile.attribute.data.invalid.range.before" type="wstring" />
-			<preference id="attribute-data-invalid-range-after" name="extensions.hatemile.attribute.data.invalid.range.after" type="wstring" />
-			<preference id="attribute-data-invalid-length-before" name="extensions.hatemile.attribute.data.invalid.length.before" type="wstring" />
-			<preference id="attribute-data-invalid-length-after" name="extensions.hatemile.attribute.data.invalid.length.after" type="wstring" />
-			<preference id="attribute-data-invalid-pattern-before" name="extensions.hatemile.attribute.data.invalid.pattern.before" type="wstring" />
-			<preference id="attribute-data-invalid-pattern-after" name="extensions.hatemile.attribute.data.invalid.pattern.after" type="wstring" />
-			<preference id="attribute-data-invalid-required-before" name="extensions.hatemile.attribute.data.invalid.required.before" type="wstring" />
-			<preference id="attribute-data-invalid-required-after" name="extensions.hatemile.attribute.data.invalid.required.after" type="wstring" />
-			<preference id="attribute-data-invalid-date-before" name="extensions.hatemile.attribute.data.invalid.date.before" type="wstring" />
-			<preference id="attribute-data-invalid-date-after" name="extensions.hatemile.attribute.data.invalid.date.after" type="wstring" />
-			<preference id="attribute-data-invalid-time-before" name="extensions.hatemile.attribute.data.invalid.time.before" type="wstring" />
-			<preference id="attribute-data-invalid-time-after" name="extensions.hatemile.attribute.data.invalid.time.after" type="wstring" />
-			<preference id="attribute-data-invalid-datetime-before" name="extensions.hatemile.attribute.data.invalid.datetime.before" type="wstring" />
-			<preference id="attribute-data-invalid-datetime-after" name="extensions.hatemile.attribute.data.invalid.datetime.after" type="wstring" />
-			<preference id="attribute-data-invalid-month-before" name="extensions.hatemile.attribute.data.invalid.month.before" type="wstring" />
-			<preference id="attribute-data-invalid-month-after" name="extensions.hatemile.attribute.data.invalid.month.after" type="wstring" />
-			<preference id="attribute-data-invalid-week-before" name="extensions.hatemile.attribute.data.invalid.week.before" type="wstring" />
-			<preference id="attribute-data-invalid-week-after" name="extensions.hatemile.attribute.data.invalid.week.after" type="wstring" />
-			
-			<preference id="elements-heading-before" name="extensions.hatemile.elements.heading.before" type="wstring" />
-			<preference id="elements-heading-after" name="extensions.hatemile.elements.heading.after" type="wstring" />
-			
-			<preference id="skipper-tableofcontents" name="extensions.hatemile.skipper.tableofcontents" type="wstring" />
-		</preferences>
-		<tabbox>
-			<tabs>
-				<tab label="&hatemile.description.caption;" />
-				<tab label="&hatemile.link.caption;" />
-				<tab label="&hatemile.navigation.caption;" />
-				<tab label="&hatemile.draganddrop.caption;" />
-				<tab label="&hatemile.forms.caption;" />
-			</tabs>
-			<tabpanels>
-				<tabpanel>
-					<vbox flex="1">
-						<label value="&hatemile.title.prefix.before;" control="control-attribute-title-prefix-before" />
-						<textbox id="control-attribute-title-prefix-before" preference="attribute-title-prefix-before" />
-						<label value="&hatemile.title.suffix.before;" control="control-attribute-title-suffix-before" />
-						<textbox id="control-attribute-title-suffix-before" preference="attribute-title-suffix-before" />
-						<label value="&hatemile.title.prefix.after;" control="control-attribute-title-prefix-after" />
-						<textbox id="control-attribute-title-prefix-after" preference="attribute-title-prefix-after" />
-						<label value="&hatemile.title.suffix.after;" control="control-attribute-title-suffix-after" />
-						<textbox id="control-attribute-title-suffix-after" preference="attribute-title-suffix-after" />
-						
-						<label value="&hatemile.label.prefix.before;" control="control-aria-label-prefix-before" />
-						<textbox id="control-aria-label-prefix-before" preference="aria-label-prefix-before" />
-						<label value="&hatemile.label.suffix.before;" control="control-aria-label-suffix-before" />
-						<textbox id="control-aria-label-suffix-before" preference="aria-label-suffix-before" />
-						<label value="&hatemile.label.prefix.after;" control="control-aria-label-prefix-after" />
-						<textbox id="control-aria-label-prefix-after" preference="aria-label-prefix-after" />
-						<label value="&hatemile.label.suffix.after;" control="control-aria-label-suffix-after" />
-						<textbox id="control-aria-label-suffix-after" preference="aria-label-suffix-after" />
-					</vbox>
-				</tabpanel>
-				
-				<tabpanel>
-					<vbox flex="1">
-						<label value="&hatemile.download.before;" control="control-attribute-download-before" />
-						<textbox id="control-attribute-download-before" preference="attribute-download-before" />
-						<label value="&hatemile.download.after;" control="control-attribute-download-after" />
-						<textbox id="control-attribute-download-after" preference="attribute-download-after" />
-						
-						<label value="&hatemile.target.blank.before;" control="control-attribute-target-blank-before" />
-						<textbox id="control-attribute-target-blank-before" preference="attribute-target-blank-before" />
-						<label value="&hatemile.target.blank.after;" control="control-attribute-target-blank-after" />
-						<textbox id="control-attribute-target-blank-after" preference="attribute-target-blank-after" />
-						
-						<label value="&hatemile.longdescription.prefix.before;" control="control-attribute-longdescription-prefix-before" />
-						<textbox id="control-attribute-longdescription-prefix-before" preference="attribute-longdescription-prefix-before" />
-						<label value="&hatemile.longdescription.suffix.before;" control="control-attribute-longdescription-suffix-before" />
-						<textbox id="control-attribute-longdescription-suffix-before" preference="attribute-longdescription-suffix-before" />
-						<label value="&hatemile.longdescription.prefix.after;" control="control-attribute-longdescription-prefix-after" />
-						<textbox id="control-attribute-longdescription-prefix-after" preference="attribute-longdescription-prefix-after" />
-						<label value="&hatemile.longdescription.suffix.after;" control="control-attribute-longdescription-suffix-after" />
-						<textbox id="control-attribute-longdescription-suffix-after" preference="attribute-longdescription-suffix-after" />
-					</vbox>
-				</tabpanel>
-				
-				<tabpanel>
-					<vbox flex="1">
-						<label value="&hatemile.accesskey.prefix.before;" control="control-attribute-accesskey-prefix-before" />
-						<textbox id="control-attribute-accesskey-prefix-before" preference="attribute-accesskey-prefix-before" />
-						<label value="&hatemile.accesskey.suffix.before;" control="control-attribute-accesskey-suffix-before" />
-						<textbox id="control-attribute-accesskey-suffix-before" preference="attribute-accesskey-suffix-before" />
-						<label value="&hatemile.accesskey.prefix.after;" control="control-attribute-accesskey-prefix-after" />
-						<textbox id="control-attribute-accesskey-prefix-after" preference="attribute-accesskey-prefix-after" />
-						<label value="&hatemile.accesskey.suffix.after;" control="control-attribute-accesskey-suffix-after" />
-						<textbox id="control-attribute-accesskey-suffix-after" preference="attribute-accesskey-suffix-after" />
-						
-						<label value="&hatemile.elements.heading.before;" control="control-elements-heading-before" />
-						<textbox id="control-elements-heading-before" preference="elements-heading-before" />
-						<label value="&hatemile.elements.heading.after;" control="control-elements-heading-after" />
-						<textbox id="control-elements-heading-after" preference="elements-heading-after" />
-						<label value="&hatemile.skipper.tableofcontents;" control="control-skipper-tableofcontents" />
-						<textbox id="control-skipper-tableofcontents" preference="skipper-tableofcontents" />
-					</vbox>
-				</tabpanel>
-				
-				<tabpanel>
-					<vbox flex="1">
-						<tabbox orient="horizontal">
-							<tabs orient="vertical">
-								<tab label="&hatemile.draganddrop.drag.caption;" />
-								<tab label="&hatemile.draganddrop.drop.caption;" />
-							</tabs>
-							<tabpanels>
-								<tabpanel>
-									<vbox flex="1">
-										<label value="&hatemile.grabbed.true.before;" control="control-aria-grabbed-true-before" />
-										<textbox id="control-aria-grabbed-true-before" preference="aria-grabbed-true-before" />
-										<label value="&hatemile.grabbed.true.after;" control="control-aria-grabbed-true-after" />
-										<textbox id="control-aria-grabbed-true-after" preference="aria-grabbed-true-after" />
-										<label value="&hatemile.grabbed.false.before;" control="control-aria-grabbed-false-before" />
-										<textbox id="control-aria-grabbed-false-before" preference="aria-grabbed-false-before" />
-										<label value="&hatemile.grabbed.false.after;" control="control-aria-grabbed-false-after" />
-										<textbox id="control-aria-grabbed-false-after" preference="aria-grabbed-false-after" />
-									</vbox>
-								</tabpanel>
-								<tabpanel>
-									<vbox flex="1">
-										<label value="&hatemile.dropeffect.copy.before;" control="control-aria-dropeffect-copy-before" />
-										<textbox id="control-aria-dropeffect-copy-before" preference="aria-dropeffect-copy-before" />
-										<label value="&hatemile.dropeffect.copy.after;" control="control-aria-dropeffect-copy-after" />
-										<textbox id="control-aria-dropeffect-copy-after" preference="aria-dropeffect-copy-after" />
-										<label value="&hatemile.dropeffect.move.before;" control="control-aria-dropeffect-move-before" />
-										<textbox id="control-aria-dropeffect-move-before" preference="aria-dropeffect-move-before" />
-										<label value="&hatemile.dropeffect.move.after;" control="control-aria-dropeffect-move-after" />
-										<textbox id="control-aria-dropeffect-move-after" preference="aria-dropeffect-move-after" />
-										<label value="&hatemile.dropeffect.link.before;" control="control-aria-dropeffect-link-before" />
-										<textbox id="control-aria-dropeffect-link-before" preference="aria-dropeffect-link-before" />
-										<label value="&hatemile.dropeffect.link.after;" control="control-aria-dropeffect-link-after" />
-										<textbox id="control-aria-dropeffect-link-after" preference="aria-dropeffect-link-after" />
-										<label value="&hatemile.dropeffect.execute.before;" control="control-aria-dropeffect-execute-before" />
-										<textbox id="control-aria-dropeffect-execute-before" preference="aria-dropeffect-execute-before" />
-										<label value="&hatemile.dropeffect.execute.after;" control="control-aria-dropeffect-execute-after" />
-										<textbox id="control-aria-dropeffect-execute-after" preference="aria-dropeffect-execute-after" />
-										<label value="&hatemile.dropeffect.popup.before;" control="control-aria-dropeffect-popup-before" />
-										<textbox id="control-aria-dropeffect-popup-before" preference="aria-dropeffect-popup-before" />
-										<label value="&hatemile.dropeffect.popup.after;" control="control-aria-dropeffect-popup-after" />
-										<textbox id="control-aria-dropeffect-popup-after" preference="aria-dropeffect-popup-after" />
-									</vbox>
-								</tabpanel>
-							</tabpanels>
-						</tabbox>
-					</vbox>
-				</tabpanel>
-				
-				<tabpanel>
-					<vbox flex="1">
-						<tabbox orient="horizontal">
-							<tabs orient="vertical">
-								<tab label="&hatemile.forms.common.caption;" />
-								<tab label="&hatemile.forms.range.caption;" />
-								<tab label="&hatemile.forms.time.caption;" />
-							</tabs>
-							<tabpanels>
-								<tabpanel>
-									<vbox flex="1">
-										<label value="&hatemile.invalid.required.before;" control="control-attribute-data-invalid-required-before" />
-										<textbox id="control-attribute-data-invalid-required-before" preference="attribute-data-invalid-required-before" />
-										<label value="&hatemile.invalid.required.after;" control="control-attribute-data-invalid-required-after" />
-										<textbox id="control-attribute-data-invalid-required-after" preference="attribute-data-invalid-required-after" />
-										<label value="&hatemile.invalid.length.before;" control="control-attribute-data-invalid-length-before" />
-										<textbox id="control-attribute-data-invalid-length-before" preference="attribute-data-invalid-length-before" />
-										<label value="&hatemile.invalid.length.after;" control="control-attribute-data-invalid-length-after" />
-										<textbox id="control-attribute-data-invalid-length-after" preference="attribute-data-invalid-length-after" />
-										<label value="&hatemile.invalid.pattern.before;" control="control-attribute-data-invalid-pattern-before" />
-										<textbox id="control-attribute-data-invalid-pattern-before" preference="attribute-data-invalid-pattern-before" />
-										<label value="&hatemile.invalid.pattern.after;" control="control-attribute-data-invalid-pattern-after" />
-										<textbox id="control-attribute-data-invalid-pattern-after" preference="attribute-data-invalid-pattern-after" />
-										<label value="&hatemile.invalid.url.before;" control="control-attribute-data-invalid-url-before" />
-										<textbox id="control-attribute-data-invalid-url-before" preference="attribute-data-invalid-url-before" />
-										<label value="&hatemile.invalid.url.after;" control="control-attribute-data-invalid-url-after" />
-										<textbox id="control-attribute-data-invalid-url-after" preference="attribute-data-invalid-url-after" />
-										<label value="&hatemile.invalid.email.before;" control="control-attribute-data-invalid-email-before" />
-										<textbox id="control-attribute-data-invalid-email-before" preference="attribute-data-invalid-email-before" />
-										<label value="&hatemile.invalid.email.after;" control="control-attribute-data-invalid-email-after" />
-										<textbox id="control-attribute-data-invalid-email-after" preference="attribute-data-invalid-email-after" />
-									</vbox>
-								</tabpanel>
-								
-								<tabpanel>
-									<vbox flex="1">
-										<label value="&hatemile.value.maximum.prefix.before;" control="control-aria-value-maximum-prefix-before" />
-										<textbox id="control-aria-value-maximum-prefix-before" preference="aria-value-maximum-prefix-before" />
-										<label value="&hatemile.value.maximum.suffix.before;" control="control-aria-value-maximum-suffix-before" />
-										<textbox id="control-aria-value-maximum-suffix-before" preference="aria-value-maximum-suffix-before" />
-										<label value="&hatemile.value.maximum.prefix.after;" control="control-aria-value-maximum-prefix-after" />
-										<textbox id="control-aria-value-maximum-prefix-after" preference="aria-value-maximum-prefix-after" />
-										<label value="&hatemile.value.maximum.suffix.after;" control="control-aria-value-maximum-suffix-after" />
-										<textbox id="control-aria-value-maximum-suffix-after" preference="aria-value-maximum-suffix-after" />
-										<label value="&hatemile.value.minimum.prefix.before;" control="control-aria-value-minimum-prefix-before" />
-										<textbox id="control-aria-value-minimum-prefix-before" preference="aria-value-minimum-prefix-before" />
-										<label value="&hatemile.value.minimum.suffix.before;" control="control-aria-value-minimum-suffix-before" />
-										<textbox id="control-aria-value-minimum-suffix-before" preference="aria-value-minimum-suffix-before" />
-										<label value="&hatemile.value.minimum.prefix.after;" control="control-aria-value-minimum-prefix-after" />
-										<textbox id="control-aria-value-minimum-prefix-after" preference="aria-value-minimum-prefix-after" />
-										<label value="&hatemile.value.minimum.suffix.after;" control="control-aria-value-minimum-suffix-after" />
-										<textbox id="control-aria-value-minimum-suffix-after" preference="aria-value-minimum-suffix-after" />
-										<label value="&hatemile.invalid.range.before;" control="control-attribute-data-invalid-range-before" />
-										<textbox id="control-attribute-data-invalid-range-before" preference="attribute-data-invalid-range-before" />
-										<label value="&hatemile.invalid.range.after;" control="control-attribute-data-invalid-range-after" />
-										<textbox id="control-attribute-data-invalid-range-after" preference="attribute-data-invalid-range-after" />
-									</vbox>
-								</tabpanel>
+    <prefpane id="saveoptions">
+        <preferences>
+            <preference id="aria-grabbed-true-before" name="extensions.hatemile.aria.grabbed.true.before" type="wstring" />
+            <preference id="aria-grabbed-true-after" name="extensions.hatemile.aria.grabbed.true.after" type="wstring" />
+            <preference id="aria-grabbed-false-before" name="extensions.hatemile.aria.grabbed.false.before" type="wstring" />
+            <preference id="aria-grabbed-false-after" name="extensions.hatemile.aria.grabbed.false.after" type="wstring" />
+            
+            <preference id="aria-dropeffect-copy-before" name="extensions.hatemile.aria.dropeffect.copy.before" type="wstring" />
+            <preference id="aria-dropeffect-copy-after" name="extensions.hatemile.aria.dropeffect.copy.after" type="wstring" />
+            <preference id="aria-dropeffect-move-before" name="extensions.hatemile.aria.dropeffect.move.before" type="wstring" />
+            <preference id="aria-dropeffect-move-after" name="extensions.hatemile.aria.dropeffect.move.after" type="wstring" />
+            <preference id="aria-dropeffect-link-before" name="extensions.hatemile.aria.dropeffect.link.before" type="wstring" />
+            <preference id="aria-dropeffect-link-after" name="extensions.hatemile.aria.dropeffect.link.after" type="wstring" />
+            <preference id="aria-dropeffect-execute-before" name="extensions.hatemile.aria.dropeffect.execute.before" type="wstring" />
+            <preference id="aria-dropeffect-execute-after" name="extensions.hatemile.aria.dropeffect.execute.after" type="wstring" />
+            <preference id="aria-dropeffect-popup-before" name="extensions.hatemile.aria.dropeffect.popup.before" type="wstring" />
+            <preference id="aria-dropeffect-popup-after" name="extensions.hatemile.aria.dropeffect.popup.after" type="wstring" />
+            
+            <preference id="attribute-download-before" name="extensions.hatemile.attribute.download.before" type="wstring" />
+            <preference id="attribute-download-after" name="extensions.hatemile.attribute.download.after" type="wstring" />
+            
+            <preference id="attribute-target-blank-before" name="extensions.hatemile.attribute.target.blank.before" type="wstring" />
+            <preference id="attribute-target-blank-after" name="extensions.hatemile.attribute.target.blank.after" type="wstring" />
+            
+            <preference id="attribute-longdescription-prefix-before" name="extensions.hatemile.attribute.longdescription.prefix.before" type="wstring" />
+            <preference id="attribute-longdescription-suffix-before" name="extensions.hatemile.attribute.longdescription.suffix.before" type="wstring" />
+            <preference id="attribute-longdescription-prefix-after" name="extensions.hatemile.attribute.longdescription.prefix.after" type="wstring" />
+            <preference id="attribute-longdescription-suffix-after" name="extensions.hatemile.attribute.longdescription.suffix.after" type="wstring" />
+            
+            <preference id="attribute-accesskey-prefix-before" name="extensions.hatemile.attribute.accesskey.prefix.before" type="wstring" />
+            <preference id="attribute-accesskey-suffix-before" name="extensions.hatemile.attribute.accesskey.suffix.before" type="wstring" />
+            <preference id="attribute-accesskey-prefix-after" name="extensions.hatemile.attribute.accesskey.prefix.after" type="wstring" />
+            <preference id="attribute-accesskey-suffix-after" name="extensions.hatemile.attribute.accesskey.suffix.after" type="wstring" />
+            
+            <preference id="aria-label-prefix-before" name="extensions.hatemile.aria.label.prefix.before" type="wstring" />
+            <preference id="aria-label-suffix-before" name="extensions.hatemile.aria.label.suffix.before" type="wstring" />
+            <preference id="aria-label-prefix-after" name="extensions.hatemile.aria.label.prefix.after" type="wstring" />
+            <preference id="aria-label-suffix-after" name="extensions.hatemile.aria.label.suffix.after" type="wstring" />
+            
+            <preference id="attribute-title-prefix-before" name="extensions.hatemile.attribute.title.prefix.before" type="wstring" />
+            <preference id="attribute-title-suffix-before" name="extensions.hatemile.attribute.title.suffix.before" type="wstring" />
+            <preference id="attribute-title-prefix-after" name="extensions.hatemile.attribute.title.prefix.after" type="wstring" />
+            <preference id="attribute-title-suffix-after" name="extensions.hatemile.attribute.title.suffix.after" type="wstring" />
+            
+            <preference id="aria-required-true-before" name="extensions.hatemile.aria.required.true.before" type="wstring" />
+            <preference id="aria-required-true-after" name="extensions.hatemile.aria.required.true.after" type="wstring" />
+            
+            <preference id="aria-value-maximum-prefix-before" name="extensions.hatemile.aria.value.maximum.prefix.before" type="wstring" />
+            <preference id="aria-value-maximum-suffix-before" name="extensions.hatemile.aria.value.maximum.suffix.before" type="wstring" />
+            <preference id="aria-value-maximum-prefix-after" name="extensions.hatemile.aria.value.maximum.prefix.after" type="wstring" />
+            <preference id="aria-value-maximum-suffix-after" name="extensions.hatemile.aria.value.maximum.suffix.after" type="wstring" />
+            <preference id="aria-value-minimum-prefix-before" name="extensions.hatemile.aria.value.minimum.prefix.before" type="wstring" />
+            <preference id="aria-value-minimum-suffix-before" name="extensions.hatemile.aria.value.minimum.suffix.before" type="wstring" />
+            <preference id="aria-value-minimum-prefix-after" name="extensions.hatemile.aria.value.minimum.prefix.after" type="wstring" />
+            <preference id="aria-value-minimum-suffix-after" name="extensions.hatemile.aria.value.minimum.suffix.after" type="wstring" />
+            
+            <preference id="attribute-data-invalid-url-before" name="extensions.hatemile.attribute.data.invalid.url.before" type="wstring" />
+            <preference id="attribute-data-invalid-url-after" name="extensions.hatemile.attribute.data.invalid.url.after" type="wstring" />
+            <preference id="attribute-data-invalid-email-before" name="extensions.hatemile.attribute.data.invalid.email.before" type="wstring" />
+            <preference id="attribute-data-invalid-email-after" name="extensions.hatemile.attribute.data.invalid.email.after" type="wstring" />
+            <preference id="attribute-data-invalid-range-before" name="extensions.hatemile.attribute.data.invalid.range.before" type="wstring" />
+            <preference id="attribute-data-invalid-range-after" name="extensions.hatemile.attribute.data.invalid.range.after" type="wstring" />
+            <preference id="attribute-data-invalid-length-before" name="extensions.hatemile.attribute.data.invalid.length.before" type="wstring" />
+            <preference id="attribute-data-invalid-length-after" name="extensions.hatemile.attribute.data.invalid.length.after" type="wstring" />
+            <preference id="attribute-data-invalid-pattern-before" name="extensions.hatemile.attribute.data.invalid.pattern.before" type="wstring" />
+            <preference id="attribute-data-invalid-pattern-after" name="extensions.hatemile.attribute.data.invalid.pattern.after" type="wstring" />
+            <preference id="attribute-data-invalid-required-before" name="extensions.hatemile.attribute.data.invalid.required.before" type="wstring" />
+            <preference id="attribute-data-invalid-required-after" name="extensions.hatemile.attribute.data.invalid.required.after" type="wstring" />
+            <preference id="attribute-data-invalid-date-before" name="extensions.hatemile.attribute.data.invalid.date.before" type="wstring" />
+            <preference id="attribute-data-invalid-date-after" name="extensions.hatemile.attribute.data.invalid.date.after" type="wstring" />
+            <preference id="attribute-data-invalid-time-before" name="extensions.hatemile.attribute.data.invalid.time.before" type="wstring" />
+            <preference id="attribute-data-invalid-time-after" name="extensions.hatemile.attribute.data.invalid.time.after" type="wstring" />
+            <preference id="attribute-data-invalid-datetime-before" name="extensions.hatemile.attribute.data.invalid.datetime.before" type="wstring" />
+            <preference id="attribute-data-invalid-datetime-after" name="extensions.hatemile.attribute.data.invalid.datetime.after" type="wstring" />
+            <preference id="attribute-data-invalid-month-before" name="extensions.hatemile.attribute.data.invalid.month.before" type="wstring" />
+            <preference id="attribute-data-invalid-month-after" name="extensions.hatemile.attribute.data.invalid.month.after" type="wstring" />
+            <preference id="attribute-data-invalid-week-before" name="extensions.hatemile.attribute.data.invalid.week.before" type="wstring" />
+            <preference id="attribute-data-invalid-week-after" name="extensions.hatemile.attribute.data.invalid.week.after" type="wstring" />
+            
+            <preference id="elements-heading-before" name="extensions.hatemile.elements.heading.before" type="wstring" />
+            <preference id="elements-heading-after" name="extensions.hatemile.elements.heading.after" type="wstring" />
+            
+            <preference id="skipper-tableofcontents" name="extensions.hatemile.skipper.tableofcontents" type="wstring" />
+        </preferences>
+        <tabbox>
+            <tabs>
+                <tab label="&hatemile.description.caption;" />
+                <tab label="&hatemile.link.caption;" />
+                <tab label="&hatemile.navigation.caption;" />
+                <tab label="&hatemile.draganddrop.caption;" />
+                <tab label="&hatemile.forms.caption;" />
+            </tabs>
+            <tabpanels>
+                <tabpanel>
+                    <vbox flex="1">
+                        <label value="&hatemile.title.prefix.before;" control="control-attribute-title-prefix-before" />
+                        <textbox id="control-attribute-title-prefix-before" preference="attribute-title-prefix-before" />
+                        <label value="&hatemile.title.suffix.before;" control="control-attribute-title-suffix-before" />
+                        <textbox id="control-attribute-title-suffix-before" preference="attribute-title-suffix-before" />
+                        <label value="&hatemile.title.prefix.after;" control="control-attribute-title-prefix-after" />
+                        <textbox id="control-attribute-title-prefix-after" preference="attribute-title-prefix-after" />
+                        <label value="&hatemile.title.suffix.after;" control="control-attribute-title-suffix-after" />
+                        <textbox id="control-attribute-title-suffix-after" preference="attribute-title-suffix-after" />
+                        
+                        <label value="&hatemile.label.prefix.before;" control="control-aria-label-prefix-before" />
+                        <textbox id="control-aria-label-prefix-before" preference="aria-label-prefix-before" />
+                        <label value="&hatemile.label.suffix.before;" control="control-aria-label-suffix-before" />
+                        <textbox id="control-aria-label-suffix-before" preference="aria-label-suffix-before" />
+                        <label value="&hatemile.label.prefix.after;" control="control-aria-label-prefix-after" />
+                        <textbox id="control-aria-label-prefix-after" preference="aria-label-prefix-after" />
+                        <label value="&hatemile.label.suffix.after;" control="control-aria-label-suffix-after" />
+                        <textbox id="control-aria-label-suffix-after" preference="aria-label-suffix-after" />
+                    </vbox>
+                </tabpanel>
+                
+                <tabpanel>
+                    <vbox flex="1">
+                        <label value="&hatemile.download.before;" control="control-attribute-download-before" />
+                        <textbox id="control-attribute-download-before" preference="attribute-download-before" />
+                        <label value="&hatemile.download.after;" control="control-attribute-download-after" />
+                        <textbox id="control-attribute-download-after" preference="attribute-download-after" />
+                        
+                        <label value="&hatemile.target.blank.before;" control="control-attribute-target-blank-before" />
+                        <textbox id="control-attribute-target-blank-before" preference="attribute-target-blank-before" />
+                        <label value="&hatemile.target.blank.after;" control="control-attribute-target-blank-after" />
+                        <textbox id="control-attribute-target-blank-after" preference="attribute-target-blank-after" />
+                        
+                        <label value="&hatemile.longdescription.prefix.before;" control="control-attribute-longdescription-prefix-before" />
+                        <textbox id="control-attribute-longdescription-prefix-before" preference="attribute-longdescription-prefix-before" />
+                        <label value="&hatemile.longdescription.suffix.before;" control="control-attribute-longdescription-suffix-before" />
+                        <textbox id="control-attribute-longdescription-suffix-before" preference="attribute-longdescription-suffix-before" />
+                        <label value="&hatemile.longdescription.prefix.after;" control="control-attribute-longdescription-prefix-after" />
+                        <textbox id="control-attribute-longdescription-prefix-after" preference="attribute-longdescription-prefix-after" />
+                        <label value="&hatemile.longdescription.suffix.after;" control="control-attribute-longdescription-suffix-after" />
+                        <textbox id="control-attribute-longdescription-suffix-after" preference="attribute-longdescription-suffix-after" />
+                    </vbox>
+                </tabpanel>
+                
+                <tabpanel>
+                    <vbox flex="1">
+                        <label value="&hatemile.accesskey.prefix.before;" control="control-attribute-accesskey-prefix-before" />
+                        <textbox id="control-attribute-accesskey-prefix-before" preference="attribute-accesskey-prefix-before" />
+                        <label value="&hatemile.accesskey.suffix.before;" control="control-attribute-accesskey-suffix-before" />
+                        <textbox id="control-attribute-accesskey-suffix-before" preference="attribute-accesskey-suffix-before" />
+                        <label value="&hatemile.accesskey.prefix.after;" control="control-attribute-accesskey-prefix-after" />
+                        <textbox id="control-attribute-accesskey-prefix-after" preference="attribute-accesskey-prefix-after" />
+                        <label value="&hatemile.accesskey.suffix.after;" control="control-attribute-accesskey-suffix-after" />
+                        <textbox id="control-attribute-accesskey-suffix-after" preference="attribute-accesskey-suffix-after" />
+                        
+                        <label value="&hatemile.elements.heading.before;" control="control-elements-heading-before" />
+                        <textbox id="control-elements-heading-before" preference="elements-heading-before" />
+                        <label value="&hatemile.elements.heading.after;" control="control-elements-heading-after" />
+                        <textbox id="control-elements-heading-after" preference="elements-heading-after" />
+                        <label value="&hatemile.skipper.tableofcontents;" control="control-skipper-tableofcontents" />
+                        <textbox id="control-skipper-tableofcontents" preference="skipper-tableofcontents" />
+                    </vbox>
+                </tabpanel>
+                
+                <tabpanel>
+                    <vbox flex="1">
+                        <tabbox orient="horizontal">
+                            <tabs orient="vertical">
+                                <tab label="&hatemile.draganddrop.drag.caption;" />
+                                <tab label="&hatemile.draganddrop.drop.caption;" />
+                            </tabs>
+                            <tabpanels>
+                                <tabpanel>
+                                    <vbox flex="1">
+                                        <label value="&hatemile.grabbed.true.before;" control="control-aria-grabbed-true-before" />
+                                        <textbox id="control-aria-grabbed-true-before" preference="aria-grabbed-true-before" />
+                                        <label value="&hatemile.grabbed.true.after;" control="control-aria-grabbed-true-after" />
+                                        <textbox id="control-aria-grabbed-true-after" preference="aria-grabbed-true-after" />
+                                        <label value="&hatemile.grabbed.false.before;" control="control-aria-grabbed-false-before" />
+                                        <textbox id="control-aria-grabbed-false-before" preference="aria-grabbed-false-before" />
+                                        <label value="&hatemile.grabbed.false.after;" control="control-aria-grabbed-false-after" />
+                                        <textbox id="control-aria-grabbed-false-after" preference="aria-grabbed-false-after" />
+                                    </vbox>
+                                </tabpanel>
+                                <tabpanel>
+                                    <vbox flex="1">
+                                        <label value="&hatemile.dropeffect.copy.before;" control="control-aria-dropeffect-copy-before" />
+                                        <textbox id="control-aria-dropeffect-copy-before" preference="aria-dropeffect-copy-before" />
+                                        <label value="&hatemile.dropeffect.copy.after;" control="control-aria-dropeffect-copy-after" />
+                                        <textbox id="control-aria-dropeffect-copy-after" preference="aria-dropeffect-copy-after" />
+                                        <label value="&hatemile.dropeffect.move.before;" control="control-aria-dropeffect-move-before" />
+                                        <textbox id="control-aria-dropeffect-move-before" preference="aria-dropeffect-move-before" />
+                                        <label value="&hatemile.dropeffect.move.after;" control="control-aria-dropeffect-move-after" />
+                                        <textbox id="control-aria-dropeffect-move-after" preference="aria-dropeffect-move-after" />
+                                        <label value="&hatemile.dropeffect.link.before;" control="control-aria-dropeffect-link-before" />
+                                        <textbox id="control-aria-dropeffect-link-before" preference="aria-dropeffect-link-before" />
+                                        <label value="&hatemile.dropeffect.link.after;" control="control-aria-dropeffect-link-after" />
+                                        <textbox id="control-aria-dropeffect-link-after" preference="aria-dropeffect-link-after" />
+                                        <label value="&hatemile.dropeffect.execute.before;" control="control-aria-dropeffect-execute-before" />
+                                        <textbox id="control-aria-dropeffect-execute-before" preference="aria-dropeffect-execute-before" />
+                                        <label value="&hatemile.dropeffect.execute.after;" control="control-aria-dropeffect-execute-after" />
+                                        <textbox id="control-aria-dropeffect-execute-after" preference="aria-dropeffect-execute-after" />
+                                        <label value="&hatemile.dropeffect.popup.before;" control="control-aria-dropeffect-popup-before" />
+                                        <textbox id="control-aria-dropeffect-popup-before" preference="aria-dropeffect-popup-before" />
+                                        <label value="&hatemile.dropeffect.popup.after;" control="control-aria-dropeffect-popup-after" />
+                                        <textbox id="control-aria-dropeffect-popup-after" preference="aria-dropeffect-popup-after" />
+                                    </vbox>
+                                </tabpanel>
+                            </tabpanels>
+                        </tabbox>
+                    </vbox>
+                </tabpanel>
+                
+                <tabpanel>
+                    <vbox flex="1">
+                        <tabbox orient="horizontal">
+                            <tabs orient="vertical">
+                                <tab label="&hatemile.forms.common.caption;" />
+                                <tab label="&hatemile.forms.range.caption;" />
+                                <tab label="&hatemile.forms.time.caption;" />
+                            </tabs>
+                            <tabpanels>
+                                <tabpanel>
+                                    <vbox flex="1">
+                                        <label value="&hatemile.invalid.required.before;" control="control-attribute-data-invalid-required-before" />
+                                        <textbox id="control-attribute-data-invalid-required-before" preference="attribute-data-invalid-required-before" />
+                                        <label value="&hatemile.invalid.required.after;" control="control-attribute-data-invalid-required-after" />
+                                        <textbox id="control-attribute-data-invalid-required-after" preference="attribute-data-invalid-required-after" />
+                                        <label value="&hatemile.invalid.length.before;" control="control-attribute-data-invalid-length-before" />
+                                        <textbox id="control-attribute-data-invalid-length-before" preference="attribute-data-invalid-length-before" />
+                                        <label value="&hatemile.invalid.length.after;" control="control-attribute-data-invalid-length-after" />
+                                        <textbox id="control-attribute-data-invalid-length-after" preference="attribute-data-invalid-length-after" />
+                                        <label value="&hatemile.invalid.pattern.before;" control="control-attribute-data-invalid-pattern-before" />
+                                        <textbox id="control-attribute-data-invalid-pattern-before" preference="attribute-data-invalid-pattern-before" />
+                                        <label value="&hatemile.invalid.pattern.after;" control="control-attribute-data-invalid-pattern-after" />
+                                        <textbox id="control-attribute-data-invalid-pattern-after" preference="attribute-data-invalid-pattern-after" />
+                                        <label value="&hatemile.invalid.url.before;" control="control-attribute-data-invalid-url-before" />
+                                        <textbox id="control-attribute-data-invalid-url-before" preference="attribute-data-invalid-url-before" />
+                                        <label value="&hatemile.invalid.url.after;" control="control-attribute-data-invalid-url-after" />
+                                        <textbox id="control-attribute-data-invalid-url-after" preference="attribute-data-invalid-url-after" />
+                                        <label value="&hatemile.invalid.email.before;" control="control-attribute-data-invalid-email-before" />
+                                        <textbox id="control-attribute-data-invalid-email-before" preference="attribute-data-invalid-email-before" />
+                                        <label value="&hatemile.invalid.email.after;" control="control-attribute-data-invalid-email-after" />
+                                        <textbox id="control-attribute-data-invalid-email-after" preference="attribute-data-invalid-email-after" />
+                                    </vbox>
+                                </tabpanel>
+                                
+                                <tabpanel>
+                                    <vbox flex="1">
+                                        <label value="&hatemile.value.maximum.prefix.before;" control="control-aria-value-maximum-prefix-before" />
+                                        <textbox id="control-aria-value-maximum-prefix-before" preference="aria-value-maximum-prefix-before" />
+                                        <label value="&hatemile.value.maximum.suffix.before;" control="control-aria-value-maximum-suffix-before" />
+                                        <textbox id="control-aria-value-maximum-suffix-before" preference="aria-value-maximum-suffix-before" />
+                                        <label value="&hatemile.value.maximum.prefix.after;" control="control-aria-value-maximum-prefix-after" />
+                                        <textbox id="control-aria-value-maximum-prefix-after" preference="aria-value-maximum-prefix-after" />
+                                        <label value="&hatemile.value.maximum.suffix.after;" control="control-aria-value-maximum-suffix-after" />
+                                        <textbox id="control-aria-value-maximum-suffix-after" preference="aria-value-maximum-suffix-after" />
+                                        <label value="&hatemile.value.minimum.prefix.before;" control="control-aria-value-minimum-prefix-before" />
+                                        <textbox id="control-aria-value-minimum-prefix-before" preference="aria-value-minimum-prefix-before" />
+                                        <label value="&hatemile.value.minimum.suffix.before;" control="control-aria-value-minimum-suffix-before" />
+                                        <textbox id="control-aria-value-minimum-suffix-before" preference="aria-value-minimum-suffix-before" />
+                                        <label value="&hatemile.value.minimum.prefix.after;" control="control-aria-value-minimum-prefix-after" />
+                                        <textbox id="control-aria-value-minimum-prefix-after" preference="aria-value-minimum-prefix-after" />
+                                        <label value="&hatemile.value.minimum.suffix.after;" control="control-aria-value-minimum-suffix-after" />
+                                        <textbox id="control-aria-value-minimum-suffix-after" preference="aria-value-minimum-suffix-after" />
+                                        <label value="&hatemile.invalid.range.before;" control="control-attribute-data-invalid-range-before" />
+                                        <textbox id="control-attribute-data-invalid-range-before" preference="attribute-data-invalid-range-before" />
+                                        <label value="&hatemile.invalid.range.after;" control="control-attribute-data-invalid-range-after" />
+                                        <textbox id="control-attribute-data-invalid-range-after" preference="attribute-data-invalid-range-after" />
+                                    </vbox>
+                                </tabpanel>
 
-								<tabpanel>
-									<vbox flex="1">
-										<label value="&hatemile.invalid.date.before;" control="control-attribute-data-invalid-date-before" />
-										<textbox id="control-attribute-data-invalid-date-before" preference="attribute-data-invalid-date-before" />
-										<label value="&hatemile.invalid.date.after;" control="control-attribute-data-invalid-date-after" />
-										<textbox id="control-attribute-data-invalid-date-after" preference="attribute-data-invalid-date-after" />
-										<label value="&hatemile.invalid.time.before;" control="control-attribute-data-invalid-time-before" />
-										<textbox id="control-attribute-data-invalid-time-before" preference="attribute-data-invalid-time-before" />
-										<label value="&hatemile.invalid.time.after;" control="control-attribute-data-invalid-time-after" />
-										<textbox id="control-attribute-data-invalid-time-after" preference="attribute-data-invalid-time-after" />
-										<label value="&hatemile.invalid.datetime.before;" control="control-attribute-data-invalid-datetime-before" />
-										<textbox id="control-attribute-data-invalid-datetime-before" preference="attribute-data-invalid-datetime-before" />
-										<label value="&hatemile.invalid.datetime.after;" control="control-attribute-data-invalid-datetime-after" />
-										<textbox id="control-attribute-data-invalid-datetime-after" preference="attribute-data-invalid-datetime-after" />
-										<label value="&hatemile.invalid.month.before;" control="control-attribute-data-invalid-month-before" />
-										<textbox id="control-attribute-data-invalid-month-before" preference="attribute-data-invalid-month-before" />
-										<label value="&hatemile.invalid.month.after;" control="control-attribute-data-invalid-month-after" />
-										<textbox id="control-attribute-data-invalid-month-after" preference="attribute-data-invalid-month-after" />
-										<label value="&hatemile.invalid.week.before;" control="control-attribute-data-invalid-week-before" />
-										<textbox id="control-attribute-data-invalid-week-before" preference="attribute-data-invalid-week-before" />
-										<label value="&hatemile.invalid.week.after;" control="control-attribute-data-invalid-week-after" />
-										<textbox id="control-attribute-data-invalid-week-after" preference="attribute-data-invalid-week-after" />
-									</vbox>
-								</tabpanel>
-							</tabpanels>
-						</tabbox>
-					</vbox>
-				</tabpanel>
-			</tabpanels>
-		</tabbox>
-	</prefpane>
+                                <tabpanel>
+                                    <vbox flex="1">
+                                        <label value="&hatemile.invalid.date.before;" control="control-attribute-data-invalid-date-before" />
+                                        <textbox id="control-attribute-data-invalid-date-before" preference="attribute-data-invalid-date-before" />
+                                        <label value="&hatemile.invalid.date.after;" control="control-attribute-data-invalid-date-after" />
+                                        <textbox id="control-attribute-data-invalid-date-after" preference="attribute-data-invalid-date-after" />
+                                        <label value="&hatemile.invalid.time.before;" control="control-attribute-data-invalid-time-before" />
+                                        <textbox id="control-attribute-data-invalid-time-before" preference="attribute-data-invalid-time-before" />
+                                        <label value="&hatemile.invalid.time.after;" control="control-attribute-data-invalid-time-after" />
+                                        <textbox id="control-attribute-data-invalid-time-after" preference="attribute-data-invalid-time-after" />
+                                        <label value="&hatemile.invalid.datetime.before;" control="control-attribute-data-invalid-datetime-before" />
+                                        <textbox id="control-attribute-data-invalid-datetime-before" preference="attribute-data-invalid-datetime-before" />
+                                        <label value="&hatemile.invalid.datetime.after;" control="control-attribute-data-invalid-datetime-after" />
+                                        <textbox id="control-attribute-data-invalid-datetime-after" preference="attribute-data-invalid-datetime-after" />
+                                        <label value="&hatemile.invalid.month.before;" control="control-attribute-data-invalid-month-before" />
+                                        <textbox id="control-attribute-data-invalid-month-before" preference="attribute-data-invalid-month-before" />
+                                        <label value="&hatemile.invalid.month.after;" control="control-attribute-data-invalid-month-after" />
+                                        <textbox id="control-attribute-data-invalid-month-after" preference="attribute-data-invalid-month-after" />
+                                        <label value="&hatemile.invalid.week.before;" control="control-attribute-data-invalid-week-before" />
+                                        <textbox id="control-attribute-data-invalid-week-before" preference="attribute-data-invalid-week-before" />
+                                        <label value="&hatemile.invalid.week.after;" control="control-attribute-data-invalid-week-after" />
+                                        <textbox id="control-attribute-data-invalid-week-after" preference="attribute-data-invalid-week-after" />
+                                    </vbox>
+                                </tabpanel>
+                            </tabpanels>
+                        </tabbox>
+                    </vbox>
+                </tabpanel>
+            </tabpanels>
+        </tabbox>
+    </prefpane>
 </prefwindow>
