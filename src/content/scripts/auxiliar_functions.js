@@ -1,3 +1,8 @@
+/**
+ * Returns the content of file.
+ * @param {string} file The path of file.
+ * @returns {string} The content of file.
+ */
 function getFileContent(file) {
     var ioService = Components.classes['@mozilla.org/network/io-service;1']
             .getService(Components.interfaces.nsIIOService);
@@ -14,10 +19,24 @@ function getFileContent(file) {
     return content;
 }
 
+/**
+ * Load the script of file in page.
+ * @param {HTMLDocument} doc The page document.
+ * @param {string} file The path of file.
+ * @param {boolean} beforeAllScripts If the script must be loaded before other
+ * scripts set true or to load the script after other scripts set false.
+ */
 function loadScript(doc, file, beforeAllScripts) {
     writeScript(doc, getFileContent(file), beforeAllScripts);
 }
 
+/**
+ * Write the content of script in page.
+ * @param {HTMLDocument} doc The page document.
+ * @param {string} content The content of script.
+ * @param {boolean} beforeAllScripts If the script must be loaded before other
+ * scripts set true or to load the script after other scripts set false.
+ */
 function writeScript(doc, content, beforeAllScripts) {
     var scriptTag, identifier;
     
@@ -50,10 +69,22 @@ function writeScript(doc, content, beforeAllScripts) {
     }
 }
 
+/**
+ * Load the stylesheet of file in page.
+ * @param {HTMLDocument} doc The page document.
+ * @param {string} file The path of file.
+ * @param {string} identifier The unique identifier of stylesheet.
+ */
 function loadStyle(doc, file, identifier) {
     writeStyle(doc, getFileContent(file), identifier);
 }
 
+/**
+ * Write the content of stylesheet in page.
+ * @param {HTMLDocument} doc The page document.
+ * @param {string} content The content of stylesheet.
+ * @param {string} identifier The unique identifier of stylesheet.
+ */
 function writeStyle(doc, content, identifier) {
     var styleTag, textNode;
     if (!doc.getElementById(identifier)) {
@@ -72,11 +103,21 @@ function writeStyle(doc, content, identifier) {
     }
 }
 
+/**
+ * Returns the content of preference.
+ * @param {nsIPrefBranch} preferencesBranch The branch of preferences.
+ * @param {string} name The name of preference.
+ * @returns {string} The content of preference.
+ */
 function getPreference(preferencesBranch, name) {
     return preferencesBranch.getComplexValue(name,
             Components.interfaces.nsIPrefLocalizedString).data;
 }
 
+/**
+ * Returns the configuration of HaTeMiLe.
+ * @returns The configuration of HaTeMiLe.
+ */
 function getConfiguration() {
     var preferencesBranch = Components
             .classes['@mozilla.org/preferences-service;1']
@@ -359,6 +400,10 @@ function getConfiguration() {
     };
 }
 
+/**
+ * Returns the skippers of HaTeMiLe.
+ * @returns The skippers of HaTeMiLe.
+ */
 function getSkippers() {
     var preferencesBranch = Components
             .classes['@mozilla.org/preferences-service;1']

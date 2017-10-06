@@ -1,3 +1,7 @@
+/**
+ * Execute HaTeMiLe on add-on side.
+ * @param {Event} event The browser event of loaded page.
+ */
 function executeHatemile(event) {
     var doc = event.originalTarget;
     if ((doc instanceof HTMLDocument) &&
@@ -41,6 +45,10 @@ function executeHatemile(event) {
     }
 }
 
+/**
+ * Include scripts and stylesheets on page.
+ * @param {HTMLDocument} doc The page document.
+ */
 function includeAuxiliarScripts(doc) {
     if ((doc instanceof HTMLDocument) &&
             (doc.defaultView === doc.defaultView.top) &&
@@ -71,6 +79,10 @@ function includeAuxiliarScripts(doc) {
     }
 }
 
+/**
+ * Include scripts and stylesheets on page to execute before all scripts.
+ * @param {Event} event The browser event of loaded page.
+ */
 function includeAuxiliarScriptsByFirstScript(event) {
     var element = event.originalTarget;
     if (element instanceof Element) {
@@ -78,6 +90,10 @@ function includeAuxiliarScriptsByFirstScript(event) {
     }
 }
 
+/**
+ * Include scripts and stylesheets on page to execute after all scripts.
+ * @param {Event} event The browser event of loaded page.
+ */
 function includeAuxiliarScriptsByHead(event) {
     var doc = event.originalTarget;
     if ((doc instanceof HTMLDocument) &&

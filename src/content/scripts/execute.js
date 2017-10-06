@@ -1,4 +1,7 @@
-initHaTeMiLeForBrowser = function() {
+/**
+ * Execute HaTeMiLe on page side.
+ */
+var initHaTeMiLeForBrowser = function() {
     try {
         var removeAddedElements = function() {
             var elements = htmlParser.find('.container-skippers,' +
