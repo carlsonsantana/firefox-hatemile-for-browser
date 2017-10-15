@@ -139,7 +139,14 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('test', ['jshint']);
-    grunt.registerTask('default', ['jshint', 'clean:remove_dist_files', 'copy',
-            'clean:remove_unused_files', 'comments', 'regex-replace',
-            'compress', 'clean:remove_source_files']);
+    grunt.registerTask('default', [
+        'jshint',
+        'clean:remove_dist_files',
+        'copy',
+        'clean:remove_unused_files',
+        'comments',
+        'regex-replace',
+        'compress',
+        'clean:remove_source_files'
+    ]);
 };

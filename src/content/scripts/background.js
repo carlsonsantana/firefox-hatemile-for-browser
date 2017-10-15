@@ -27,14 +27,14 @@ function executeHatemile(event) {
 
         var accessibleNavigation = new hatemile.implementation
                 .AccessibleNavigationImplementation(htmlParser, configure,
-                    getSkippers());
+                        getSkippers());
         accessibleNavigation.provideNavigationByAllHeadings();
         accessibleNavigation.provideNavigationToAllLongDescriptions();
         accessibleNavigation.provideNavigationByAllSkippers();
 
         var accessibleDisplay = new hatemile.implementation
                 .AccessibleDisplayScreenReaderImplementation(htmlParser,
-                    configure, doc.defaultView.navigator.userAgent);
+                        configure, doc.defaultView.navigator.userAgent);
         accessibleDisplay.displayAllCellHeaders();
         accessibleDisplay.displayAllWAIARIAStates();
         accessibleDisplay.displayAllLinksAttributes();
