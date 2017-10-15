@@ -39,7 +39,7 @@ function loadScript(doc, file, beforeAllScripts) {
  */
 function writeScript(doc, content, beforeAllScripts) {
     var scriptTag, identifier;
-    
+
     if (beforeAllScripts) {
         identifier = 'hatemile-script-before';
     } else {
@@ -53,10 +53,10 @@ function writeScript(doc, content, beforeAllScripts) {
             scriptTag = document.createElement('script');
             scriptTag.appendChild(document.createTextNode(content));
         }
-        
+
         scriptTag.setAttribute('type', 'text/javascript');
         scriptTag.setAttribute('id', identifier);
-        
+
         if (!doc.head) {
             doc.documentElement.appendChild(scriptTag);
         } else if ((doc.head.children.length == 0) || (!beforeAllScripts)) {
@@ -123,7 +123,7 @@ function getConfiguration() {
             .classes['@mozilla.org/preferences-service;1']
             .getService(Components.interfaces.nsIPrefService)
             .getBranch('extensions.hatemile.');
-    
+
     return {
         'prefix-generated-ids': 'id-hatemile-firefox-' + Math.random()
                 .toString(36).substring(7),
@@ -409,7 +409,7 @@ function getSkippers() {
             .classes['@mozilla.org/preferences-service;1']
             .getService(Components.interfaces.nsIPrefService)
             .getBranch('extensions.hatemile.');
-    
+
     return {
         'selector': '#container-heading',
         'description': getPreference(preferencesBranch,
