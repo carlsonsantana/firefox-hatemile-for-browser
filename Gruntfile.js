@@ -5,12 +5,15 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        jshint: {
+        eslint: {
             options: {
-                ignores: ['src/content/scripts/hatemile/**/*.js'],
-                maxlen: 80
+                configFile: 'eslint.json'
             },
-            files: ['Gruntfile.js', 'src/**/*.js']
+            files: [
+                'Gruntfile.js',
+                'src/defaults/**/*.js',
+                'src/content/scripts/*.js'
+            ]
         },
         copy: {
             main: {
@@ -134,7 +137,7 @@ module.exports = function(grunt) {
     });
 
     // Load dependencies.
-    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-eslint');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-stripcomments');
@@ -142,9 +145,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compress');
 
     // Default task(s).
-    grunt.registerTask('test', ['jshint']);
+    grunt.registerTask('test', ['eslint']);
     grunt.registerTask('default', [
-        'jshint',
+        'eslint',
         'clean:remove_dist_files',
         'copy',
         'clean:remove_unused_files',
