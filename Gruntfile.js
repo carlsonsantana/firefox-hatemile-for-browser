@@ -16,9 +16,9 @@ module.exports = function(grunt) {
             main: {
                 files: [
                     // includes files within path and its sub-directories
-                    {expand: true, cwd: 'src/', src: ['**'], dest: 'dist/'},
-                ],
-            },
+                    {expand: true, cwd: 'src/', src: ['**'], dest: 'dist/'}
+                ]
+            }
         },
         clean: {
             remove_dist_files: ['dist/'],
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
                     keepSpecialComments: false
                 },
                 src: [hatemilePath + '**/*.js']
-            },
+            }
         },
         'regex-replace': {
             main: {
