@@ -12,6 +12,7 @@ First off, thank you for considering contributing to HaTeMiLe for Browser.
   * [Pull request](#pull-request)
   * [Styleguides](#styleguides)
     * [Git commit messages](#git-commit-messages)
+    * [JavaScript styleguide](#javascript-styleguide)
 * [Donate](#donate)
 
 ## Code of conduct
@@ -74,7 +75,15 @@ If you want submit your code to HaTeMiLe for Browser you need follow the code co
   * :octocat: `:octocat:` GitHub especific resource
   * :bookmark: `:bookmark:` Version Tag
   * :wrench: `:wrench:` Tooling
-  
+
+#### JavaScript styleguide
+
+* Limit the line to 80 characters or less;
+* Use four space indentation;
+* Not use trailing whitespace in your code;
+* Make sure you have a space after commas.
+* All variables and functions names must be use camelCase names.
+
 ## Donate
   
 If you'd like to monetarily support HaTeMiLe for Browser development, you can [donate to us by PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7YBQ2ENMUFJW8).

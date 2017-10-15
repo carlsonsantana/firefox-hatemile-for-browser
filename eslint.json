@@ -6,7 +6,6 @@
         "no-unused-vars": "off",
         "no-control-regex": "off",
         "no-empty": "off",
-        "no-alert": "error",
         "no-eval": "error",
         "brace-style": "error",
         "comma-dangle": "error",
