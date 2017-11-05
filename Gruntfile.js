@@ -34,7 +34,6 @@ module.exports = function(grunt) {
                 hatemilePath + 'README.md',
                 hatemilePath + '.git',
                 hatemilePath + '.github/',
-                hatemilePath + 'css/',
                 hatemilePath + 'coffee/',
                 hatemilePath + '_locales/',
                 hatemilePathJS + 'AccessibleAssociation.js',

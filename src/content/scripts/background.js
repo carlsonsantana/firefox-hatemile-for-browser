@@ -59,7 +59,8 @@ function includeAuxiliarScripts(doc) {
             loadStyle(doc, 'styles/accessiblearia.css', 'accessiblearia');
             loadStyle(doc, 'styles/accessibleformvalidation.css',
                     'accessibleformvalidation');
-            loadStyle(doc, 'styles/hide_changes.css', 'hidechanges');
+            loadStyle(doc, 'scripts/hatemile/css/hide_changes.css',
+                    'hidechanges');
             loadScript(doc, 'scripts/hatemile/js/common.js', true);
             loadScript(doc, 'scripts/hatemile/js/eventlistener.js', true);
             loadScript(doc, hatemilePath + 'util/CommonFunctions.js', false);
